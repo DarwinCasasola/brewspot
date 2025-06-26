@@ -1,0 +1,92 @@
+/* --- BrewSpot Coffee Theme --- */
+:root {
+    --latte: #F2E6D8;
+    --milk: #DEC4AD;
+    --mocha: #9F7356;
+    --espresso: #6D4C3D;
+    --roast: #3A2314;
+  }
+  
+  body {
+    background-color: var(--latte);
+    font-family: 'Segoe UI', sans-serif;
+    color: var(--espresso);
+  }
+  
+  .navbar {
+    background-color: var(--roast) !important;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: var(--latte) !important;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  header, h1, h2, h3 {
+    color: var(--espresso);
+  }
+  
+  .card {
+    background-color: var(--milk);
+    border: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .card-title {
+    color: var(--roast);
+  }
+  
+  .btn-primary {
+    background-color: var(--mocha);
+    border-color: var(--mocha);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--espresso);
+    border-color: var(--espresso);
+  }
+  
+  .btn-outline-success {
+    color: var(--mocha);
+    border-color: var(--mocha);
+  }
+  
+  .btn-outline-success:hover {
+    background-color: var(--mocha);
+    color: var(--latte);
+  }
+  
+  .btn-outline-danger {
+    color: var(--espresso);
+    border-color: var(--espresso);
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: var(--espresso);
+    color: var(--latte);
+  }
+  
+  footer {
+    background-color: var(--roast);
+    color: var(--latte);
+  }
+  /* Layout fix to push footer to bottom */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1; /* Fills remaining space */
+  }
+  

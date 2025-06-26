@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Mothership Coffee Roasters",
+      "neighborhood": "Henderson",
+      "rating": 4.7,
+      "hours": "7am - 5pm",
+      "image": "mothership.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Writers Block Coffee",
+      "neighborhood": "Arts District",
+      "rating": 4.6,
+      "hours": "8am - 4pm",
+      "image": "WritersBlock.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Vesta Coffee Roasters",
+      "neighborhood": "Arts District",
+      "rating": 4.8,
+      "hours": "6am - 6pm",
+      "image": "VestCoffee.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bad Owl Coffee",
+        "neighborhood": "Henderson",
+        "rating": 4.9,
+        "hours": "8am - 5pm",
+        "image": "Badowlcoffee.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Almond & Oat",
+        "neighborhood": "Henderson",
+        "rating": 4.4,
+        "hours": "7am - 3pm",
+        "image": "almond&oat.jpg"
+    }
+  ]
+  
